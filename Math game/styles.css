@@ -1,0 +1,60 @@
+body {
+    background-color: #62edfc; /* Bright background */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, child-like font */
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    border: 5px dashed #94daff; /* Dashed border for a playful look */
+    padding: 30px;
+    background-color: #58cffa; /* Lighter background for the container */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 5px 10px #049db4; /* Simple shadow for a 3D effect */
+}
+
+h1 {
+    color: #0491b4; /* Contrast color for the title */
+}
+
+#question {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#answerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#answer {
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px; /* Rounded corners for the input */
+    border: none;
+}
+
+button {
+    color: white;
+    background-color: #00a7e9; /* Same color as the title for consistency */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded corners for the buttons */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FE2E2E; /* Brighter color when hovering over the buttons */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b1b44; /* Dark color for better readability */
+}
