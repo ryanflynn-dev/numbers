@@ -1,0 +1,45 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fun-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background: #FFD700;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.fun-button:hover {
+    transform: scale(1.05);
+}
+
+.fun-facts {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.fun-facts p {
+    font-size: 20px;
+    line-height: 1.5;
+}
